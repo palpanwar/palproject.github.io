@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<style>
+div {
+  width: 720px;
+  border: 3px solid white;
+  margin: 0px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: orange;
+}
+
+body
+{
+color:black;
+border:1px solid powder blue;
+padding:0px;
+margin:0px;
+background-image:url("background.png");
+background-size:cover;
+}
+h3
+{
+font-family:Arial Rounded MT Bold;
+color:black;
+}
+</style>
+<body>
+<center><div>
+<h4 align="left">INDEX</h4>
+<h2>Shri Vaishnav Vidhyapeeth Vishwavidyala</h2>
+<h3><?php echo $_POST["Institute"];
+?></h3>
+<img src="image.jpg" alt="SVVV" width="100" height="100"><br>
+<h3>Welcome <?php echo $_POST["name"]; 
+?></h3>
+<OL type="A" align="left">
+<LI><a href="homeerp.php">Home</a></LI></form>
+<LI><a href="attendenceerp.php">Attendence</a></LI>
+<LI><a href="resulterp.php">Result</a></LI>
+<LI><a href="">Internal Marks</a></LI>
+<LI><a href="">My Information</a></LI>
+<LI><a href="">Fees paid.</LI></a></a>
+<LI><a href="">Class Schedule</a></LI>
+<LI><a href="">Change Password</a></LI>
+</OL>
+</div></center>
+<br><br>
+</body>
+</html>
