@@ -1,0 +1,67 @@
+<HTML>
+<HEAD>
+<STYLE>
+th,td
+{
+padding:5px;
+border:1px solid black;
+}
+table
+{
+width:50%;
+text-align:center;
+background-color:brown;
+text-color:black;
+}
+body
+{
+border:1px solid powder blue;
+padding:0px;
+margin:0px;
+background-image:url("background.png");
+background-size:100%;
+}
+h3
+{
+font-family:Arial Rounded MT Bold;
+color:orange;
+}
+</STYLE>
+</HEAD>
+<BODY >
+<UL type="disc" align="left" >
+<br>
+<LI  style="color:orange">Result</LI>
+</UL>
+<center>
+<h3>Semester-1 (December 2018)</h3>
+<table style="text-align:center"><br>
+<TH>Serial no.</TH>
+<TH>Subject Name</TH>
+<TH>Credit</TH>
+<TH>Grade</TH>
+<TR><TD>1<TD>Mathematics-I<TD>4<TD>A</TD></TD></TD></TD></TR>
+<TR><TD>2<TD>Applied Physics<TD>5<TD>B</TD></TD></TD></TD></TR>
+<TR><TD>3<TD>Introduction to Computer Science and Engineering<TD>4<TD>O</TD></TD></TD></TD></TR>
+<TR><TD>4<TD>Digital Logic & Circuit Design<TD>5<TD>C</TD></TD></TD></TD></TR>
+<TR><TD>5<TD>Principles of 'C'Language<TD>3<TD>O</TD></TD></TD></TD></TR>
+<TR><TD>6<TD>Web Development Lab-I(XML & HTML)<TD>2<TD>A+</TD></TD></TD></TD></TR>
+<TR><TD>7<TD>Programming Skills with 'C'<TD>1<TD>B+</TD></TD></TD></TD></TR>
+</table>
+<h3>Semester-2 (May 2019)</h3>
+<table style="text-align:center"><br>
+<TH>Serial no.</TH>
+<TH>Subject Name</TH>
+<TH>Credit</TH>
+<TH>Grade</TH>
+<TR><TD>1<TD>Mathematics-II<TD>4<TD>A</TD></TD></TD></TD></TR>
+<TR><TD>2<TD>CPI<TD>5<TD>B</TD></TD></TD></TD></TR>
+<TR><TD>3<TD>Data Structure &Algorithm<TD>5<TD>B+</TD></TD></TD></TD></TR>
+<TR><TD>4<TD>CSO<TD>4<TD>C</TD></TD></TD></TD></TR>
+<TR><TD>5<TD>OOP<TD>3<TD>A+</TD></TD></TD></TD></TR>
+<TR><TD>6<TD>Programming Skills with 'C++'<TD>1<TD>B</TD></TD></TD></TD></TR>
+<TR><TD>7<TD>Communication Skills<TD>1<TD>O</TD></TD></TD></TD></TR>
+</table>
+</center>
+</body>
+</html>
