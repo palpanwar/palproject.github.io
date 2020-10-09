@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+<STYLE>
+th,td
+{
+padding:5px;
+border:1px solid black;
+}
+table
+{
+width:50%;
+text-align:center;
+background-color:blue;
+text-color:black;
+}
+body
+{
+border:1px solid powder blue;
+padding:0px;
+margin:0px;
+background-image:url("background.png");
+background-size:100%;
+}
+h3
+{
+font-family:Arial Rounded MT Bold;
+color:blue;
+}
+</STYLE>
+</HEAD>
+<BODY >
+<UL type="disc" align="left" >
+<br>
+<LI  style="color:black">Attendence</LI>
+</UL>
+<center>
+<table style="text-align:center"><br>
+<center><h3>Attendence Details</h3></center>
+<TH>Serial no.</TH>
+<TH>Subject Name</TH>
+<TH>Faculty</TH>
+<TH>Attendence</TH>
+<TR><TD>1<TD>Introduction to Core Java<TD>Chetan Chauhan<TD>86%</TD></TD></TD></TD></TR>
+<TR><TD>2<TD>Analysis of Design & Algorithm<TD>Pooja Deshpande<TD>75%</TD></TD></TD></TD></TR>
+<TR><TD>3<TD>Principle of Programming Language<TD>Sonam Mehta<TD>74%</TD></TD></TD></TD></TR>
+<TR><TD>4<TD>Discrete Structure<TD>Sapna Gupta<TD>75%</TD></TD></TD></TD></TR>
+<TR><TD>5<TD>Data Communication<TD>Sourabh Sharma<TD>69%</TD></TD></TD></TD></TR>
+<TR><TD>6<TD>Web Development<TD>Sanat Jain<TD>80%</TD></TD></TD></TD></TR>
+<TR><TD>7<TD>Technical Presentation<TD>Nikhil Chaturvedi<TD>84%</TD></TD></TD></TD></TR>
+</table>
+</center>
+</body>
+</html>
