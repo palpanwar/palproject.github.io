@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>svvv home</title>
+<style>
+div
+{
+width:800px;
+border:2px solid grey;
+background-color:skyblue;
+padding:20px;
+margin:20px;
+}
+body
+{
+color:black;
+border:2px solid blue;
+background-image:url("backgroungd.png");
+background-size:cover;
+}
+h3
+{
+font-family:Arial Rounded Mt Bold;
+color:green;
+}
+</style>
+</head>
+<body>
+<br>
+<center><img src="logo.png"></center>
+<br><br>
+<div>
+<ul type=square align=left>
+<li><a href="login.php">ERP Login</a></li>
+<li>Information Submitted to UGC</li>
+<li>Research +</li>
+<li>News & Events</li>
+<li>News Archieve</li>
+<li>Placement</li>
+<li>Career</li>
+<li>Vacancy</li>
+<li>Login</li>
+<li>Contact Us</li>
+</ul>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br>
+<h3 align=center>Useful links &nbsp;&nbsp; &nbsp;  Other Links &nbsp; &nbsp; &nbsp; Quick Link &nbsp; &nbsp; &nbsp;Contact us </h3>
+</body>
+</html>
