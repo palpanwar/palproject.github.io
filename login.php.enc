@@ -1,0 +1,92 @@
+<!doctype html>
+<HTML>
+<HEAD>
+<TITLE>SVVV ERP</TITLE>
+<STYLE>
+div {
+  width: 320px;
+  border: 5px solid gray;
+  margin: 0;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+input[type=text]
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid green;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] 
+{
+  width: 100%;
+  background-color:green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+input[type=password] 
+{
+   width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid green;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+body
+{
+background-size:cover;
+background-image:url("backgroundlogin.png");
+}
+</STYLE>
+</HEAD>
+<BODY >
+<center>
+ <img src="frontsvvv.png" alt="SVVV" width="9%" height="9%">
+<div>
+  <H2>Login</H2>
+<form action="linkpost.php" method="post">
+  <H4>Shri Vaishnav Vidhyapeeth Vishwavidyalaya</H4><br>
+<label>Username  
+<input type="text" placeholder="18100BTCSE02710" name="name" size="40">
+ </label> <br>
+<label>Password</label>
+  <input type="password" placeholder="Password" size="40"name="password" id="myinput">
+<p align=left><input  type="checkbox"onclick="myfunction()">Show password</p>
+<script>
+function myfunction()
+{
+var x=document.getElementById("myinput");
+if(x.type=="password")
+{
+x.type="text";
+}else{
+x.type="password";}
+}
+</script>
+<label>Select Institute
+<select name="Institute" style="max-width:100%;padding: 10px 0px; margin: 1px 1; border: 1px solid green;border-radius: 4px; box-sizing: border-box;">
+<option value="">-------------------------Select Institute---------------------</option>
+<option value="Shri Vaishnav Institute of Technology and Science">Shri Vaishnav Institute of Technology and Science</option>
+<option value="Shri Vaishnav Institute of Information Technology ">Shri Vaishnav Institute of Information Technology</option>  
+<option value="Shri Vaishnav Institute of Textile Technology">Shri Vaishnav Institute of  Textile Technology</option>
+<option value="Shri Vaishnav Institute of Forensic Science">Shri Vaishnav Institute of Forensic Science</option>
+<option value="Shri Vaishnav Institute of Architecture">Shri Vaishnav Institute of Architecture</option>
+<option value="Shri Vaishnav Institute of Social Science,Humanity">Shri Vaishnav Institute of Social  Science,Humanity</option>
+<option value="Shri Vaishnav School of Managment">Shri Vaishnav School of Managment</option>
+</option></label>
+ <p align=left><input type="checkbox" name="Remember me" value="Password" size="40">Remember me</p>
+ <input type="submit" value="Login" size="40">
+Forgot Password? 
+ <br>
+</form>
+</div>
+</center>
+</BODY>
+</HTML>
